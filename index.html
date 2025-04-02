@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An interactive developer roadmap planner demonstrating basic DOM manipulation with HTML, CSS, and JavaScript.">
+    <title>Interactive Developer Roadmap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Plan Your Developer Roadmap</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Step 1: Choose Your Path</h2>
+            <p id="dynamic-text">Every developer journey starts somewhere. Are you leaning towards Frontend, Backend, Full-Stack, Mobile, or something else?</p>
+            <button id="change-text-btn">Get a Starting Tip</button>
+        </section>
+
+        <hr>
+
+        <section id="styling-demo">
+            <h2>Step 2: Focus on Fundamentals</h2>
+            <p id="style-target">Mastering core concepts like HTML, CSS, and JavaScript is crucial.</p>
+            <button id="change-style-btn">Mark 'JavaScript Fundamentals' In Progress</button>
+        </section>
+
+        <hr>
+
+        <section id="element-manipulation">
+            <h2>Step 3: Build Your Learning Plan</h2>
+            <p>Add key learning modules or technologies to your personal roadmap below.</p>
+            <div id="roadmap-steps-container">
+                </div>
+            <button id="add-element-btn">Add Next Learning Module</button>
+            <button id="remove-element-btn">Remove Last Module</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> ChirchirDev. Happy Coding! 💻✨</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
