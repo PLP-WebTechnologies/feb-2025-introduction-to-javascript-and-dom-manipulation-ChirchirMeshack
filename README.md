@@ -1,5 +1,9 @@
 # Interactive Developer Roadmap Planner Demo
 
+**(Screenshot of the website's desktop view here)**
+*![Website Screenshot](./screenshot.png)
+
+
 ## Description
 
 This project is a simple demonstration website designed as an interactive **Developer Roadmap Planner**. Its primary goal is to illustrate fundamental JavaScript concepts for manipulating the Document Object Model (DOM) within a practical, thematic context. It showcases:
